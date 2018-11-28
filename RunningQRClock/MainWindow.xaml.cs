@@ -120,7 +120,7 @@ namespace RunningQRClock
                 TimeSpan ts = stopWatch3.Elapsed;
                 currentTime3 = String.Format("{0:00}:{1:00}:{2:00}:{3:000}",
                 ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds);
-                textClock3.Text = currentTime1;
+                textClock3.Text = currentTime3;
             }
         }
 
